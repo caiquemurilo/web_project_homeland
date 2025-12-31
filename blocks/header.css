@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+}
+.header__title {
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  margin-block: 90px 0;
+  text-align: center;
+}
+.header__subtitle {
+  margin-block: 32px 0;
+  text-align: center;
+}
+.header__image {
+  filter: grayscale(100%);
+  margin-top: 64px;
+  width: 100%;
+}
