@@ -18,3 +18,9 @@
   line-height: 34px;
   font-weight: 400;
 }
+
+@media (max-width: 1024px) {
+  .quote {
+    width: 100%;
+  }
+}

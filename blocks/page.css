@@ -16,3 +16,18 @@
 .page__footer {
   margin-block: 92px 0;
 }
+/* breakpoints */
+/* 1024px */
+/* 544px */
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1024px;
+    padding-inline: 0;
+  }
+}
+@media (max-width: 544px) {
+  .page {
+    max-width: 544px;
+  }
+}
