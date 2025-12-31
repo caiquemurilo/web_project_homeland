@@ -25,9 +25,21 @@
     max-width: 1024px;
     padding-inline: 0;
   }
+  .page__intro {
+    margin-top: 90px;
+  }
+  .page__footer {
+    margin-top: 88px;
+  }
 }
 @media (max-width: 544px) {
   .page {
     max-width: 544px;
+  }
+  .page__intro {
+    margin-top: 64px;
+  }
+  .page__footer {
+    margin-top: 64px;
   }
 }

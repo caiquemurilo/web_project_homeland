@@ -23,4 +23,19 @@
   .quote {
     width: 100%;
   }
+  .quote__paragraph {
+    margin-top: 50px 0;
+  }
+  .quote__author {
+    margin-top: 26px;
+  }
+}
+
+@media (max-width: 544px) {
+  .quote__paragraph {
+    margin-top: 40px 0;
+  }
+  .quote__author {
+    margin-top: 10px;
+  }
 }
