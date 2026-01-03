@@ -1,14 +1,16 @@
 .page {
+  background-color: #2a2c2f;
+}
+.page__wrapper {
   max-width: 1280px;
   margin: 0 auto;
-  background-color: #2a2c2f;
+
   text-align: center;
   padding-top: 34px;
   padding-bottom: 24px;
   padding: 34px 148px 24px;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
-  border: solid 1px blue;
 }
 .page__intro {
   margin-top: 92px;
@@ -21,7 +23,7 @@
 /* 544px */
 
 @media (max-width: 1024px) {
-  .page {
+  .page__wrapper {
     max-width: 1024px;
     padding-inline: 0;
   }
@@ -33,7 +35,7 @@
   }
 }
 @media (max-width: 544px) {
-  .page {
+  .page__wrapper {
     max-width: 544px;
   }
   .page__intro {
