@@ -1,7 +1,5 @@
+
 .page {
-  background-color: #2a2c2f;
-}
-.page__wrapper {
   max-width: 1280px;
   margin: 0 auto;
 
@@ -23,7 +21,7 @@
 /* 544px */
 
 @media (max-width: 1024px) {
-  .page__wrapper {
+  .page {
     max-width: 1024px;
     padding-inline: 0;
   }
@@ -35,7 +33,7 @@
   }
 }
 @media (max-width: 544px) {
-  .page__wrapper {
+  .page {
     max-width: 544px;
   }
   .page__intro {
