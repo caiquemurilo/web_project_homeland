@@ -1,6 +1,7 @@
 .intro {
-  max-width: 84%;
+  max-width: 72%;
   text-align: left;
+  padding-inline: 148px;
 }
 .intro__title {
   font-size: 54px;
