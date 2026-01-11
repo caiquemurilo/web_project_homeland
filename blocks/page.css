@@ -1,11 +1,8 @@
-
 .page {
   max-width: 1280px;
   margin: 0 auto;
 
   text-align: center;
-  padding-top: 34px;
-  padding-bottom: 24px;
   padding: 34px 148px 24px;
   font-family: "Inter", Arial, sans-serif;
   color: #fff;
@@ -13,6 +10,10 @@
 .page__intro {
   margin-top: 92px;
 }
+.page__photo-grid {
+  margin-top: 118px;
+}
+
 .page__footer {
   margin-block: 92px 0;
 }
@@ -27,6 +28,9 @@
   }
   .page__intro {
     margin-top: 90px;
+  }
+  .page__photo-grid {
+    margin-top: 64px;
   }
   .page__footer {
     margin-top: 88px;
