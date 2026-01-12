@@ -1,0 +1,20 @@
+.places {
+  display: grid;
+  gap: 80px;
+  padding-inline: 148px;
+
+}
+
+@media (max-width: 1024px) {
+  .places {
+    padding-inline: 24px;
+    gap: 72px;
+  }
+}
+
+@media (max-width: 544px) {
+  .places {
+    padding-inline: 0;
+    gap: 50px;
+  }
+}

@@ -1,0 +1,145 @@
+.place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: min-content min-content auto;
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraphs"
+    "place__button place__paragraphs";
+  text-align: left;
+  gap: 48px 40px;
+}
+.place__title {
+  grid-area: place__title;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.place__website {
+  grid-area: place__website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.place__url-heading {
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 12%;
+  color: #aaa;
+  margin-block: 0 8px;
+  text-transform: uppercase;
+}
+.place__artist {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+.place__image {
+  grid-area: place__image;
+  box-shadow: 10px 10px 25px 0px #00000080;
+  object-fit: cover;
+  width: 100%;
+  max-width: 460px;
+}
+.place__image:hover {
+  cursor: pointer;
+  filter: brightness(0.4);
+}
+.place__paragraphs {
+  grid-area: place__paragraphs;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  font-size: 18px;
+  line-height: 1.63;
+  font-weight: 400;
+  letter-spacing: 0%;
+}
+.place__paragraph {
+  margin: 0;
+}
+.place__button {
+  grid-area: place__button;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 356.08px;
+  height: 48px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  box-shadow: 5px 5px 10px 0px #00000040;
+}
+.place__button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
+}
+
+@media (max-width: 1024px) {
+  .place {
+    column-gap: 28px;
+  }
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+  .place__image {
+    max-width: 340px;
+  }
+  .place__paragraphs {
+    font-size: 16px;
+  }
+
+  .place__button {
+    max-width: 355px;
+  }
+}
+
+@media (max-width: 544px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas:
+      "place__title"
+      "place__website"
+      "place__image"
+      "place__paragraphs"
+      "place__button";
+    row-gap: 30px;
+  }
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    padding-inline: 16px;
+  }
+  .place__website {
+    padding-inline: 16px;
+  }
+
+  .place__image {
+    max-width: 100%;
+    object-fit: contain;
+  }
+  .place__paragraphs {
+    padding-inline: 16px;
+  }
+  .place__button {
+    max-width: 90%;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+}

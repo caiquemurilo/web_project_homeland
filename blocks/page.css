@@ -13,6 +13,9 @@
 .page__photo-grid {
   margin-top: 118px;
 }
+.page__places {
+  margin-top: 92px;
+}
 
 .page__footer {
   margin-block: 92px 0;
@@ -32,6 +35,9 @@
   .page__photo-grid {
     margin-top: 64px;
   }
+  .page__places {
+    margin-top: 88px;
+  }
   .page__footer {
     margin-top: 88px;
   }
@@ -42,6 +48,12 @@
   }
   .page__intro {
     margin-top: 64px;
+  }
+  .page__photo-grid {
+    margin-top: 38px;
+  }
+  .page__places {
+    margin-top: 62px;
   }
   .page__footer {
     margin-top: 64px;
