@@ -1,6 +1,6 @@
 .quote {
-  width: 87%;
   margin: 0;
+  max-width: 737.78px;
 }
 .quote__text {
   margin: 0;
@@ -21,7 +21,7 @@
 
 @media (max-width: 1024px) {
   .quote {
-    width: 100%;
+    max-width: 100%;
   }
   .quote__paragraph {
     margin-top: 50px 0;
